@@ -1,0 +1,95 @@
+print("hello python interpreter!")
+hello python interpreter!
+message = "Hello Python World"
+print(message)
+Hello Python World
+message = "Hello Python Crash Course World"
+print(message)
+Hello Python Crash Course World
+message = "Hello Python World"
+print(message)
+
+message = "Hello Python Crash Course World"
+print(message)
+Hello Python World
+Hello Python Crash Course World
+message = "Hello Python Crash Course Reader"
+print(mesage)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-5-be7a659cbd4f> in <module>
+      1 message = "Hello Python Crash Course Reader"
+----> 2 print(mesage)
+
+NameError: name 'mesage' is not defined
+mesage = "Hello Python Crash Course Reader"
+print(mesage)
+Hello Python Crash Course Reader
+name = "ada lovelace"
+print(name.title())
+Ada Lovelace
+print(name.upper())
+print(name.lower())
+ADA LOVELACE
+ada lovelace
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+ada lovelace
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()}!")
+Hello, Ada Lovelace!
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()!}")
+  File "<ipython-input-2-dc99dc6e57d4>", line 4
+    print(f"Hello, {full_name.title()!}")
+          ^
+SyntaxError: f-string: invalid conversion character: expected 's', 'r', or 'a'
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}!"
+print(message)
+Hello, Ada Lovelace!
+print("Python")
+Python
+print("\tPython")
+	Python
+print("language:\nPython\nC\nJavaScript")
+language:
+Python
+C
+JavaScript
+print("language:\n\tPython\nC\n\tJavaScript")
+language:
+	Python
+C
+	JavaScript
+faverite_language = 'python '
+faverite_language
+'python '
+faverite_language.rstrip()
+'python'
+faverite_language
+'python '
+faverite_language = "python "
+faverite_language = faverite_language.rstrip()
+faverite_language
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-9-a7d9347f3db0> in <module>
+      1 faverite_language = "python "
+----> 2 faverite_language = faverite_language.rsctrip()
+      3 faverite_language
+
+AttributeError: 'str' object has no attribute 'rsctrip'
+faverite_language = "python "
+faverite_language = faverite_language.rstrip()
+faverite_language
+'python'
+ 
